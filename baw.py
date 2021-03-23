@@ -4,9 +4,8 @@ image = cv2.imread('duck.jpg', -1)
 shape = image.shape # height, width, channels -> 3 {red, green, blue}
 height, width, channels = shape[0], shape[1], shape[2]
 
-for row in range(1, height - 1):
-    for column in range(1, width - 1):
-
+for row in range(height):
+    for column in range(width):
         red, green, blue = image[row][column][0], image[row][column][1], image[row][column][2]
         gray = int(red) + int(green) + int(blue) / 3
 
