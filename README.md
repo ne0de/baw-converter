@@ -1,2 +1,2 @@
 # baw-converter
-image converter to black and white usin OpenCV
+image converter to black and white using OpenCV
